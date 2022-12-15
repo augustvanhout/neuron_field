@@ -101,6 +101,7 @@ To instantiate all neurons in a new NeuronField, try the following code:
 <br>
 To explore the NeuronField's dictionary of all neurons, explore <code>test_df.neuron_dict</code>. To see all neurons' basic information in a dataframe, try the following code: 
 <br>
+<br>
 
 
 <code>
