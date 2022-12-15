@@ -125,6 +125,10 @@ Try the following:
 
 <code>
     X_train, y_train = get_mnist_data([0,1])
+</code>
+<br>
+
+<code>
     nf_test.predict(X_data = X_train, y_data = y_train, records = 5, steps = 10)
 </code>
 <br>
