@@ -1,0 +1,25 @@
+LICENSE
+Neuron Field Slides.pdf
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.ipynb_checkpoints/Neuron Field Slides-checkpoint.pdf
+.ipynb_checkpoints/README-checkpoint.md
+.ipynb_checkpoints/package-checkpoint.ipynb
+.ipynb_checkpoints/package_tutorial-checkpoint.ipynb
+images/3d_scatter_point.png
+images/Neuron-Anatomy - embibe_com.jpg
+images/dishbrain_cortical_labs.png
+images/field_neurons.png
+images/input_neurons.png
+images/neuronfield_neuron.png
+images/output_neurons.png
+images/package_movie.gif
+images/self_portrait_small.png
+images/.ipynb_checkpoints/package_movie-checkpoint.gif
+src/neuron_field/__init__.py
+src/neuron_field.egg-info/PKG-INFO
+src/neuron_field.egg-info/SOURCES.txt
+src/neuron_field.egg-info/dependency_links.txt
+src/neuron_field.egg-info/top_level.txt
