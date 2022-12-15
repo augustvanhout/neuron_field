@@ -149,7 +149,7 @@ Try the following:
 
 
 
-### Deveolopment of this Package
+### Development of this Package
 
 I'm very excited for the implications of this work. In short, this is the product of itterative attempts to accomplish brain-like activity in a three dimensional space over the course of two weeks.
 
