@@ -73,10 +73,9 @@ Input neurons are instantiated in a two dimensional location. This location is w
 <br> 
 
 
-## Field Neurons 
+## Field Neurons <img style = "float: right;" src="images/field_neurons.png" width = 200>
 Field neurons are placed randomly around the field, and their function is to alter and transfer signals. They read their neighbors' values, run those values through a tiny random DNN (by default), and use the output to set their own axon value.
 
-<img src="images/field_neurons.png" style = "float: right;" width = 200>
 
 There are lots of interesting and challenging implications for neurons activating one another in 3D. 
 Neurons activate in steps. In one step, the neurons:
