@@ -91,6 +91,7 @@ Output neurons are positioned near the top of the field in a circle, equistant f
 Output neurons hold potential as well. They could be arbitrarily relocated wherever we wish, or in many different places. We may be able to use their values as inputs to in ensemble models.
 
 To instantiate all neurons in a new NeuronField, try the following code:
+<br>
 
 <code>
     nf_test.initiate_field()
@@ -98,12 +99,13 @@ To instantiate all neurons in a new NeuronField, try the following code:
 
 <br>
 To explore the NeuronField's dictionary of all neurons, explore <code>test_df.neuron_dict</code>. To see all neurons' basic information in a dataframe, try the following code:
-
 <br>
+
 <code>
     nf_test.gather_neuron_data(["input", "field", "output"])
     nf_test.neuron_df
 </code>
+
 <br>
 
 ## Prediction <img src="images/package_movie.gif" style = "float: right;" width=375>
@@ -123,6 +125,7 @@ Try the following:
     nf_test.predict(X_data = X_train, y_data = y_train, records = 5, steps = 10)
     nf_test.output_df
 </code>
+
 <br>
 
 |image_id	|step	|1284	|1285	|prediction	|y	|y_neuron	|is_correct|
