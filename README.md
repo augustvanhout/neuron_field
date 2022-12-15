@@ -95,16 +95,16 @@ To instantiate all neurons in a new NeuronField, try the following code:
 <code>
     nf_test.initiate_field()
 </code>
+
 <br>
 To explore the NeuronField's dictionary of all neurons, explore <code>test_df.neuron_dict</code>. To see all neurons' basic information in a dataframe, try the following code:
+
 <br>
 <code>
     nf_test.gather_neuron_data(["input", "field", "output"])
     nf_test.neuron_df
 </code>
 <br>
-
-### 
 
 ## Prediction <img src="images/package_movie.gif" style = "float: right;" width=375>
 We can use the NeuronField for prediction by reading the output neurons. 
@@ -126,13 +126,12 @@ Try the following:
 <br>
 
 |image_id	|step	|1284	|1285	|prediction	|y	|y_neuron	|is_correct|
-|-----------|-------|-------|-------|-----------|---|-----------|----------|
-|0	|7	|10	|3.675371e+06	|1.511822e+07	|1285	|1	|1285	|True|
-|0	|8	|10	|0.000000e+00	|0.000000e+00	|1285	|0	|1284	|False|
-|0	|9	|10	|0.000000e+00	|0.000000e+00	|1285	|0	|1284	|False|
-|0	|10	|10	|0.000000e+00	|0.000000e+00	|1285	|1	|1285	|True|
-|0	|11	|10	|0.000000e+00	|0.000000e+00	|1285	|0	|1284	|False|
-
+|-----------|-------|-------|-------|-----------|---|-----------|---------|
+|2	|10	|747237.54316	|1.835843e+06	|1285	|1	|1285	|True|
+|3	|10	|0.00000	|0.000000e+00	|1285	|1	|1285	|True|
+|4	|10	|0.00000	|5.703352e+00	|1285	|1	|1285	|True|
+|5	|10	|0.00000	|0.000000e+00	|1285	|0	|1284	|False|
+|6	|10	|0.00000	|1.157274e+02	|1285	|1	|1285	|True|
 
 
 
