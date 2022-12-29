@@ -86,7 +86,7 @@ Neurons activate in steps. In one step, the neurons:
 Field neurons have potential to be used and modified in the future. Even now, it is possible to remove them mid-use, relocate their axons, alter them with new types of activation models, and even assign them files to hold.
 
 ## Output Neurons <img src="images/output_neurons.png" style = "float: right;" width = 200>
-Output neurons are positioned near the top of the field in a circle, equistant from one another. Rather than any activation function, they simply take the mean of their neighbors' outputs. In this way, we can see which area is more active and use this information to make predictions or influence decisions.
+Output neurons are positioned near the top of the field in a circle, equidistant from one another. Rather than any activation function, they simply take the mean of their neighbors' outputs. In this way, we can see which area is more active and use this information to make predictions or influence decisions.
 
 Output neurons hold potential as well. They could be arbitrarily relocated wherever we wish, or in many different places. We may be able to use their values as inputs to in ensemble models.
 
