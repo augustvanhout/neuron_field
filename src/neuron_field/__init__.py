@@ -806,9 +806,9 @@ class NeuronField:
         self.place_image(image)
         gif_images = []
         for x in range(1, steps):
-            nf_test.gather_neuron_data(["input", "field", "output"])
+            self.gather_neuron_data(["input", "field", "output"])
             ax = plt.axes(projection='3d')
-            df = nf_test.neuron_df
+            df = self.neuron_df
             df1 = df[df["type"].isin(["field"])]
             df1["x"] = [int(loc[0]) for loc in list(df1["loc"])]
             df1["y"] = [int(loc[1]) for loc in list(df1["loc"])]
@@ -832,5 +832,5 @@ class NeuronField:
             plt.savefig(filepath)
             for n in range(4):
                 gif_images.append(imageio.imread(filepath))
-            nf_test.step()
+            self.step()
         imageio.mimsave(f"{output_path}/{prefix}_movie.gif", gif_images)
